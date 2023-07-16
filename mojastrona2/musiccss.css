@@ -1,0 +1,36 @@
+body {
+	background-color: black;
+}
+
+.fred {
+	height: 900px;
+	position: absolute;
+	bottom: -60px;
+	 right: 30px;
+}
+
+.muza {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+
+
+h2 {
+	color: white;
+	padding-left: 80px;
+}
+
+.chuj {
+	float: left;
+}
+
+.muza1 {
+	padding-left: 80px;
+	padding-top: 20px;
+}
+
+.chuj2 {
+	position: absolute;
+	right: 800px;
+}

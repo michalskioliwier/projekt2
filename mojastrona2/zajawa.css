@@ -1,0 +1,279 @@
+.gora {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	background-image: linear-gradient(#737373, black);
+	color: white;
+}
+
+body {
+	margin: 0;
+}
+
+.serce {
+	color: white;
+	width: 16px;
+	height: 16px;
+	padding: 10px;
+	padding-top: 26px;
+}
+
+.panele {
+	height: 600px;
+	background-color:black;
+}
+
+.lewy {
+	height: 400px;
+	width: 40%;
+	margin-left: 40px;
+	margin-top: 20px;
+	float:left;
+	border: 2px solid white;
+	border-style: ridge;
+}
+
+h1 {
+	color:white;
+  font-family: "Montserrat Medium";
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+  animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(10) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(11) {
+  animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(12) {
+  animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(13) {
+  animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(14) {
+  animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(15) {
+  animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(16) {
+  animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(17) {
+  animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(18) {
+  animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(19) {
+  animation: fade-in 0.8s 1.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(20) {
+  animation: fade-in 0.8s 2.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(21) {
+  animation: fade-in 0.8s 2.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.prawy {
+	float: right;
+	width: 50%;
+	background-color: black;
+}
+
+.freddie {
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.paneldol {
+	height: 650px;
+  background-color: red;
+}
+
+.przerwa {
+  height: 2px;
+}
+
+.cytaty {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.quote {
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+}
+
+p {
+	margin: 0;
+}
+
+.tekst {
+	margin-left: 30px;
+width: 500px;
+border: 2px solid white;
+color: white;
+padding: 5px;
+float: left;
+margin-left: 300px;
+}
+
+.supertekst {
+	padding-top: 30px;
+}
+
+.tekstfred {
+	margin: 0;
+	color: white;
+	font-size:46px;
+}
+
+.prawytekst {
+display: flex;
+justify-content: center;	
+}
+
+.foto1 {
+	height:550px;
+	width: 350px;
+	 position: absolute;
+    bottom: -300px;
+    right: 300px;
+}
+
+.foto2 {
+	height:450px;
+	width: 300px;
+	position: absolute;
+    bottom: -320px;
+    right: 200px;
+}
+
+.korona {
+	height: 55px;
+	width: 55px;
+	padding-left: 10px;
+	
+}
+
+.muzyka {
+	height: 600px;
+	background-color: black;
+}
+
+.column {
+    float: left;
+	margin-left: 80px;
+	margin-top: 80px;
+	border: 2px solid white;
+  }
+
+  style {
+    box-sizing: border-box;
+  }
+  
+  .tekstmuza {
+	  position: absolute;
+	  bottom: -900px;
+	  right: 730px;
+	  color: white;
+	  font-size: 20px;
+  }
+  
+  .nicknac {
+	  height: 442px;
+	  background-color: red;
+  }
+  
+.wywiad {
+	color: white;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	font-size: 36px;
+}
+
+.foto3 {
+	position: absolute;
+	right: 1200px;
+}
+
+.videlo {
+		position: absolute;
+	right: 670px;
+}
+
+.wywiady {
+text-decoration: none;
+display: flex;
+justify-content: center;
+margin-top: 320px;
+}

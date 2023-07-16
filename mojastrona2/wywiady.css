@@ -1,0 +1,19 @@
+body {
+	background-color: red;
+}
+
+.fota {
+	height: 800px;
+	position:absolute;
+	bottom: 0;
+}
+
+.wywiady {
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+}
+
+.videlo {
+	border: 2px solid white
+}
